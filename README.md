@@ -21,6 +21,7 @@ Sovellus on tehty HTML-, CSS- ja JavaScript-tekniikoilla ja siinä käytetään 
 ## Sovelluksen tarkoitus
 
 **On pitää hauskaa!**
+
 Tutustua uusiin koirarotuihin ja kertoa mieleisensä koirarotu, monestikko tämmöiseen tilanteeseen ajautuu. :)
 
 ## Kuinka käynnistän sovelluksen
@@ -45,17 +46,26 @@ Tutustua uusiin koirarotuihin ja kertoa mieleisensä koirarotu, monestikko tämm
 ## API-avain 🔑
 
 Sovellus käyttää TheDogAPI:a.  
+
 Huomio! GitHub-repositorioon **ei ole tallennettu julkista API-avainta**.  
+
 Jos haluat käyttää rajapintaa, löydät API-avaimellesi paikan config.js tiedostosta.
+
 Api-avaimet ovat henkilökohtaisia eikä niitä kuulu jakaa ulkopuolisille tai jakaa julkisesti.
+
 
 ## Inspiraatio ja oppi
 
 https://www.pinterest.com/
+
 https://www.thedogapi.com/
+
 https://moodle.oulu.fi/course/view.php?id=27545 (Kurssin materiaali)
+
 https://https://chatgpt.com/ (Hyvänä inspiraation ja oppimisen lähteenä)
+
 http://w3schools.com/
+
 Tämä lisäksi selailin useita erilaisia sivuja inspiraation lähteenä.
 
 
