@@ -13,7 +13,7 @@ Sovellus hakee koirakuvia [TheDogAPI](https://thedogapi.com/)-rajapinnasta.
 Käyttäjä voi:
 - Hakea kuvia haluamistaan koiraroduista
 - Samalla lisätä nimensä vieraskirjaan
-- Äänestää suosikkikoirarotuaan
+- Äänestää suosikki koirarotuaan
 - Nähdä top 3-suosituimmat koirarodut sekä eniten äänestetyn rodun kuvan
 
 Sovellus on tehty HTML-, CSS- ja JavaScript-tekniikoilla ja siinä käytetään olio-ohjelmointia.
