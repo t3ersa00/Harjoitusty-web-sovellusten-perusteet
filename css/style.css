@@ -1,0 +1,176 @@
+:root {
+    --tausta1: #718F94;
+    --tausta2: #DBCFB0;
+    --himmennys: rgba(255, 255, 255, 0.247);
+    --himmennysx2: rgba(255, 255, 255, 0.445);
+    --varjo: 0 4px 15px rgba(0, 0, 0, 0.808);
+    --korotus-vari: #616283;
+    --teksti: #333333de;
+    --teksti2: #eee;
+    --napit: #545775af;
+    --napit2: #545775;
+    --borderit: #0E1116;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--tausta2);
+    color: var(--teksti);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: var(--himmennys);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+#päiväys {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 0.8em;
+    color: var(--teksti);
+}
+
+a {
+    margin: 15px;
+    color: var(--teksti);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--borderit);
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content {
+    background: linear-gradient(var(--himmennysx2), var(--himmennysx2)), var(--tausta1);
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: var(--varjo);
+    width: 100%;
+    margin: 10px;
+}
+
+#koirankuva {
+    display: flex;
+    justify-content: center;
+}
+
+#koirankuva img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: var(--himmennysx2);
+}
+
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 9px;
+    margin: 4px 0;
+    font-size: 0.8em;
+    border-radius: 5px;
+    border: var(--borderit);
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--napit);
+    color: var(--teksti2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--napit2);
+}
+
+#vieraslista {
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 0;
+    list-style: none;
+    margin-top: 8px;
+    border: 1px solid #8284a0;
+    border-radius: 5px;
+    background: white;
+}
+
+#vieraslista li {
+    padding: 5px 12px;
+    border-bottom: 1px solid #8284a0;
+}
+
+.error-message {
+    color: rgb(196, 57, 87);
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#topaanestetyt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#topaanestetyt img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: var(--himmennysx2);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .content {
+        width: 80%;
+        max-width: 500px;
+    }
+
+    #topaanestetyt img {
+        max-height: 350px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .content {
+        width: 95%;
+        max-width: 95%;
+    }
+
+    }
+
+    #koirankuva img,
+    #topaanestetyt img {
+        max-height: 450px;
+    }

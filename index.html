@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Web-sovellus harjoitustyö</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Koirarodut <3</h1>
+                <div id="päiväys"></div>
+
+                <nav>
+                    <a href="#" id="etusivubutton">Etusivu</a>
+                    <a href="#" id="aanestysbutton">Äänestys</a>
+                    <a href="#" id="tietoabutton">Tietoa</a>
+                </nav>
+    </header>
+
+    <main>
+
+        <section class="content" id="AvaaPaasivu">
+            <h2>Hae koiran kuva</h2>
+            <input type="text" id="nimi" placeholder="Syötä etunimesi">
+            <select id="rotuselect"></select>
+            <button id="haeKuvabutton">Hae kuva</button>
+            <div id="koirankuva"></div>
+            <h3>Vieraskirja</h3>
+            <ul id="vieraslista"></ul>
+        </section>
+
+        <section class="content hidden" id="AvaaVieraskirja">
+            <h2>Äänestä lempirotuasi</h2>
+            <select id="aanestaselect"></select>
+            <button id="aanestabutton">Äänestä</button>
+            <p id="aanestysilmoitus" class="error-message"></p>
+            <h3>Top 3 -suosituimmat rodut</h3>
+            <ol id="toprodut"></ol>
+            <h3>Suosituin rotu:</h3>
+            <div id="topaanestetyt"></div>
+        </section>
+
+        <section class="content hidden" id="AvaaTietoa">
+            <h2>Tietoa sovelluksesta</h2>
+            <p>Tämä sovellus hakee koirakuvia TheDogAPI-rajapinnasta, tallentaa käyttäjien nimet vieraskirjaan ja kerää
+                äänestystietoja suosituimmista koiraroduista. Projekti on tehty koulutyönä Web-sovellusten perusteet
+                kurssille.</p>
+            <p>Sovellus tarjoaa käyttäjälleen helpon ja hauskan tavan tutustua erilaisiin koirarotuihin, nähdä niistä kuvia ja äänestää suosikkiaan</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Harjoitustyö web-sovellusten perusteet kevät 2025</p>
+        <p>Sari Ervasti, TVT24KMO</p>
+    </footer>
+
+    <script type="module" src="js/functions.js"></script>
+
+</body>
+
+</html>
