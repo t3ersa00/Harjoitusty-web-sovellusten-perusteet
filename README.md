@@ -1,5 +1,6 @@
 # Web-sovellusten perusteet harjoitustyö
-## Kevät 2025, Sari Ervasti, TVT24KMO
+Kevät 2025, Sari Ervasti, TVT24KMO
+
 
 # Koirarodut Web-sovellus
 
