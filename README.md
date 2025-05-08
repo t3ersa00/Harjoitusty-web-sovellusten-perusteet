@@ -2,7 +2,7 @@
 Kevät 2025, Sari Ervasti, TVT24KMO
 
 
-# Koirarodut Web-sovellus
+## Koirarodut Web-sovellus
 
 Tämä on harjoitustyö Oulun ammattikorkeakoulun _Web-sovellusten perusteet_ -kurssille (kevät 2025).
 
