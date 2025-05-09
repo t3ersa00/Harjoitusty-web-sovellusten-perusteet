@@ -54,7 +54,7 @@ Jos haluat käyttää rajapintaa, löydät API-avaimellesi paikan config.js tied
 Api-avaimet ovat henkilökohtaisia eikä niitä kuulu antaa käyttöön ulkopuolisille tai jakaa julkisesti.
 
 
-## Inspiraatio ja oppi
+## Inspiraatio ja oppiminen
 
 [https://www.pinterest.com/](https://www.pinterest.com/)
 
@@ -66,7 +66,7 @@ Api-avaimet ovat henkilökohtaisia eikä niitä kuulu antaa käyttöön ulkopuol
 
 [http://w3schools.com/](https://www.w3schools.com/)
 
-Joitain youtube videoita katsoin joista hain ratkaisuja pulmiin mutta en varsinaisesti toteuttanut näistä kuin osasia.
+Joitain youtube videoita katsoin joista hain ratkaisuja pulmiin mutta en varsinaisesti toteuttanut näistä kuin osioita ja hain vinkkejä.
 
 [https://www.youtube.com/watch?v=CYlNJpltjMM](https://www.youtube.com/watch?v=CYlNJpltjMM)
 [https://www.youtube.com/watch?v=ZFQkb26UD1Y](https://www.youtube.com/watch?v=ZFQkb26UD1Y)
