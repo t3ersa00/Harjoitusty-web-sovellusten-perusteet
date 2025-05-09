@@ -66,11 +66,14 @@ Api-avaimet ovat henkilökohtaisia eikä niitä kuulu antaa käyttöön ulkopuol
 
 [http://w3schools.com/](https://www.w3schools.com/)
 
-Joitain youtube videoita katsoin joista hain ratkaisuja pulmiin mutta en varsinaisesti toteuttanut näistä kuin osioita ja hain vinkkejä.
+Youtube videoita joista hain ratkaisuja pulmiin mutta en varsinaisesti toteuttanut näistä kuin osioita ja hain vinkkejä.
 
 [https://www.youtube.com/watch?v=CYlNJpltjMM](https://www.youtube.com/watch?v=CYlNJpltjMM)
+
 [https://www.youtube.com/watch?v=ZFQkb26UD1Y](https://www.youtube.com/watch?v=ZFQkb26UD1Y)
+
 [https://www.youtube.com/watch?v=krUdJ87uxXc](https://www.youtube.com/watch?v=krUdJ87uxXc)
+
 [https://www.youtube.com/watch?v=EhS-MJ5EFxc](https://www.youtube.com/watch?v=EhS-MJ5EFxc)
 
 Tämä lisäksi selailin useita erilaisia sivuja inspiraation lähteenä sivun ulkoasulle sekä toiminnalle.
