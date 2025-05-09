@@ -1,5 +1,5 @@
 export class Vieraskirja {
-    //Haetaan tallennetut nimet localStoragesta ja muutetaan ne takaisin taulukoksi, muutne käytetään tyhjä listaa
+    //Haetaan tallennetut nimet localStoragesta ja muutetaan ne takaisin taulukoksi, muuten käytetään tyhjä listaa
     constructor() {
         this.nimet = JSON.parse(localStorage.getItem('vieraskirja')) || [];
     }
@@ -8,7 +8,7 @@ export class Vieraskirja {
     lisaaNimi(nimi) {
         //Tarkistaa että sama nimi ei ole listassa
         if (!this.nimet.includes(nimi)) {
-            //Lisätään tauluikkoon
+            //Lisätään taulukkoon
             this.nimet.push(nimi);
             //Tallennetaan LogaStorageen
             this.tallenna();

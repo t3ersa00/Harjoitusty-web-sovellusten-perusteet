@@ -14,25 +14,21 @@ export class Aanestys {
         this.tallenna();
         localStorage.setItem('aanestanyt', 'true');
     }
-
     //Palautaa äänet
     haeAanet() {
         return this.aanet;
     }
-
     // Palautetaan 3 äänestetyintä rotua
     topRodut(maara = 3) {
         return Object.entries(this.aanet)
             .sort((a, b) => b[1] - a[1])
             .slice(0, maara);
     }
-
     //Plalauttaa susoituimman äänestetyn rodun
     suosituinRotu() {
         return Object.entries(this.aanet)
             .sort((a, b) => b[1] - a[1])[0];
     }
-
     //Tallennetaan äänet logalStorageen
     tallenna() {
         localStorage.setItem('aanet', JSON.stringify(this.aanet));
